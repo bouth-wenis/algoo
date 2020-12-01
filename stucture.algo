@@ -1,0 +1,18 @@
+ALGORITHM set_element
+VAR
+ tab : ARRAY_OF INTEGER[5]; 
+ i : INTEGER
+ sum : INTEGER := 0;
+ x:INTEGER
+BEGIN
+ tab:= {1,2,3,5,7}; 
+  Write('Print Array :')
+  FOR i FROM 0 TO 4 STEP 1  DO  
+   IF x==tab[i] THEN
+     Write("x appartient à tab")
+   END_IF  
+
+     
+  END_FOR
+
+END
